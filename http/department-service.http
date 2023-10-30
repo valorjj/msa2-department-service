@@ -1,0 +1,27 @@
+### POST
+POST http://localhost:8081/department
+Content-Type: application/json
+
+
+{
+  "id": 1,
+  "name": "JAVA"
+}
+
+
+### POST
+POST http://localhost:8081/department
+Content-Type: application/json
+
+
+{
+  "id": 2,
+  "name": "React"
+}
+
+### GET
+GET http://localhost:8081/department/1
+
+
+### GET
+GET http://localhost:8081/department/with-employees
